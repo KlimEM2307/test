@@ -101,7 +101,7 @@ namespace Lab1_Smirnov
             int cx = 10 + (int)(xC * scale);
             int cy = 90 - (int)(yC * scale);
 
-            return new List<(int, int)> { (ax, ay), (bx, by), (cx, cy) };
+            return new List<(int, int)> { (ax, ay), (bx, by), (cx, cy) }; 
         }
     }
 }
